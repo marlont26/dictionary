@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul> 
+                <li><a href="index.html"><span class="ceroo"><i class="verb00"></i></span>Diccionary</a></li>
+                <li><a href="irregulares1.html"><span class="cero"><i class="verb1"></i></span>Irregular</a></li>
+                <li><a href="regular.html"><span class="uno"><i class="verb0"></i></span>regular</a></li>
+                <li><a href="gramatica.html"><span class="dos"><i class="verb0"></i></span>Gramatical</a></li>
+
+                <img src="media/logo.png" alt="logo dictionary" class="logo" >
+            </ul>
+            <ul>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-facebook'></i>
+            </ul>
+        </nav>
+    </header>
+    <div class="pr1">
+        <h1>Dictionary</h1> 
+        <span>Obtén definiciones claras y escucha la pronunciación de palabras y expresiones en inglés británico y americano del diccionario de verbos más popular: el Diccionario Avanzado para Estudiantes. </span>
+        <div id="dictionary1"></div>
+     </div>
+
+    <div class="pr">
+        <h2>Explora la Gramática Inglesa</h2>
+
+        <p>Obtén explicaciones gramaticales claras y cientos de ejemplos de uso cotidiano del inglés oral y escrito.</p>
+
+        <div class="bw1">
+            <ul class="hul1">
+                            <li class="lc1">
+                    <a href="https://dictionary.cambridge.org/es/diccionario/ingles/">inglés</a>
+                </li>
+                            <li class="lc lc1 lpb-10 lpr-5 lc-xs6-12 lc-s1 lc-l6-12">
+                    <a href="https://dictionary.cambridge.org/es/diccionario/ingles-estudiantes/">Learner’s Dictionary</a>
+                </li>
+                            <li class="lc lc1 lpb-10 lpr-5 lc-xs6-12 lc-s1 lc-l6-12">
+                    <a href="https://dictionary.cambridge.org/es/diccionario/esencial-ingles-americano/">inglés americano esencial</a>
+                </li>
+                            <li class="lc lc1 lpb-10 lpr-5 lc-xs6-12 lc-s1 lc-l6-12">
+                    <a href="https://dictionary.cambridge.org/es/diccionario/esencial-ingles-britanico/">inglés británico esencial</a>
+                </li>
+                        </ul>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+    <footer id="footer" class="pr3">
+        <div class="lcs">
+    
+            
+            <div class="lpt">
+                <div class="hfl">
+        <a href="https://www.facebook.com/CUPCambridgeDictionary/" target="_blank" rel="noopener noreferrer external" class="pr3" title="&iexcl;Hazte fan!">
+            <i class="i i-facebook iw lpl-1" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/marlontorres.z/" target="_blank" rel="noopener noreferrer external" class="pr3" title="&iexcl;S&iacute;guenos en Instagram!">
+            <i class="i i-instagram iw lpl-1" aria-hidden="true"></i>
+        </a>
+        <a href="https://twitter.com/CambridgeWords" target="_blank" rel="noopener noreferrer external" class="pr3" title="&iexcl;S&iacute;guenos!">
+            <i class="i i-x iw lpl-1" aria-hidden="true"></i>
+        </a>
+    </div>
+    
+    <div class="hcb">
+        <a class="hdib s s-logo-footer" href="http://www.cambridge.org/" title="Cambridge University Press &amp; Assessment" rel="external"></a>
+        <p>© Diccionary international yk</p>
+    </div>        </div>
+    
+            <div class="cfn hfl-s lc1 lc-xsa hul-u hul-un hul-u0 lmb-0 lcs">
+                <div class="cfnl hfl-s lp-s_r-20 lbb lb-ch lbb0-s">
+        <div class="tc-w fs18 hax hdn-s">
+            <span class="pr0 hdb fs12 tcu lp-15 lpt-5 lpb-5 hlh24 hp" on="tap:AMP.setState({ stateFtr: { learn: ! stateFtr.learn } })">
+                Aprende
+                <span class="hdn-m"><i class="i i-plus ibw pa cfni" [class]="stateFtr.learn ? 'i i-minus ibw pa cfni' : 'i i-plus ibw pa cfni'" aria-hidden="true"></i></span>
+            </span>
+        </div>
+        <div class="lpl-15 lp-s_l-0 fs14 hlh21 lmb-20 hdn hdb-s" [class]="stateFtr.learn ? 'lpl-15 lp-s_l-0 fs14 hlh21 lmb-20' : 'lpl-15 lp-s_l-0 fs14 hlh21 lmb-20 hdn hdb-s'">
+            <a href="/es/learn.html" class="hdn hdb-s tc-w lpb-5 fs12 tcu hlh22">Aprende</a>
+            <a href="/es/learn.html" class="hdn-s">Aprende</a>
+            <a href="https://dictionaryblog.cambridge.org/category/new-words/" class="hdb">Palabras nuevas</a>
+            <a href="/es/help/" class=" hdb ">Ayuda</a>
+            <a href="http://www.cambridge.org/gb/cambridgeenglish/catalog/dictionaries" target="_blank" rel="noopener noreferrer" class="hdb">En papel</a>
+                </div>
+    </div>
+    <div class="cfnl hfl-s lp-s_r-20 lp-s_l-20 lbb lb-ch lbb0-s">
+        <div class="tc-w fs18 hax hdn-s">
+            <span class="pr0 hdb fs12 tcu lp-15 lpt-5 lpb-5 hlh24 hp" on="tap:AMP.setState({ stateFtr: { develop: ! stateFtr.develop } })">
+                Desarrollar
+                <span class="hdn-m"><i class="i i-plus ibw pa cfni" [class]="stateFtr.develop ? 'i i-minus ibw pa cfni' : 'i i-plus ibw pa cfni'" aria-hidden="true"></i></span>
+            </span>
+        </div>
+        <div class="lpl-15 lp-s_l-0 fs14 hlh21 lmb-20 hdn hdb-s" [class]="stateFtr.develop ? 'lpl-15 lp-s_l-0 fs14 hlh21 lmb-20' : 'lpl-15 lp-s_l-0 fs14 hlh21 lmb-20 hdn hdb-s'">
+            <a href="/es/develop.html" class="hdn hdb-s tc-w lpb-5 fs12 tcu hlh22">Desarrollar</a>
+            <a href="/es/develop.html" class="hdn-s">Desarrollar</a>
+            <a href="http://dictionary-api.cambridge.org" target="_blank" rel="noopener noreferrer" class="hdb">API del diccionario</a>
+            <a href="/es/doubleclick.html" class="hdb">Buscar con doble clic</a>
+            <a href="/es/freesearch.html" class="hdb">Buscar widgets</a>
+            <a href="/es/license.html" class="hdb">Licencia de datos</a>
+                </div>
+    </div>
+    <div class="cfnl hfl-s lp-s_r-20 lp-s_l-20 lbb lb-ch lbb0-s">
+        <div class="tc-w fs18 hax hdn-s">
+            <span class="pr0 hdb fs12 tcu lp-15 lpt-5 lpb-5 hlh24 hp" on="tap:AMP.setState({ stateFtr: { about: ! stateFtr.about } })">
+                Quiénes somos
+                <span class="hdn-m"><i class="i i-plus ibw pa cfni" [class]="stateFtr.about ? 'i i-minus ibw pa cfni' : 'i i-plus ibw pa cfni'" aria-hidden="true"></i></span>
+            </span>
+        </div>
+        <div class="lpl-15 lp-s_l-0 fs14 hlh21 lmb-20 hdn hdb-s" [class]="stateFtr.about ? 'lpl-15 lp-s_l-0 fs14 hlh21 lmb-20' : 'lpl-15 lp-s_l-0 fs14 hlh21 lmb-20 hdn hdb-s'">
+            <a href="/es/about.html" class="hdn hdb-s tc-w lpb-5 fs12 tcu hlh22">Quiénes somos</a>
+            <a href="/es/about.html" class="hdn-s">Quiénes somos</a>
+            <a href="http://www.cambridge.org/policy/accessibility/" target="_blank" rel="noopener noreferrer" class="hdb">Accesibilidad</a>
+            <a href="http://www.cambridge.org/us/cambridgeenglish" target="_blank" rel="noopener noreferrer" class="hdb">Cambridge English</a>
+            <a href="http://www.cambridge.org/" target="_blank" rel="noopener noreferrer" class="hdb">Cambridge University Press & Assessment</a>
+                        <span id="ot-sdk-btn" class="ot-sdk-show-settings hdb ha">Gestión de permisos</span>
+                    <a href="http://www.cambridge.org/about-us/legal-notices/privacy-notice" target="_blank" rel="noopener noreferrer" class="hdb">Cookies y Privacidad</a>
+            <a href="http://www.cambridge.org/elt/corpus/" target="_blank" rel="noopener noreferrer" class="hdb">Corpus</a>
+            <a href="http://www.cambridge.org/about-us/terms-use/" target="_blank" rel="noopener noreferrer" class="hdb">Aviso legal</a>
+                        </div>
+    </div>        </div>
+    
+            <div class="cfd lpb-20 hdn-xs hdb-s hfr-s">
+                <div class="hfl hax htc tc-w lc1 lc-xsa lb-ch lbb0-xs lpt-10 lp-xs_t-0">
+        <a href="https://www.facebook.com/CUPCambridgeDictionary/" target="_blank" rel="noopener noreferrer external" class="pr00 hdb hao b-sf pa p0 pra cfsi htc lml-20 lmr-20 hdib hfl-s" title="&iexcl;Hazte fan!">
+            <i class='bx bxl-facebook'></i>
+        </a>
+        <a href="https://www.instagram.com/marlontorres.z/" target="_blank" rel="noopener noreferrer external" class="pr00 hdb hao b-si pa p0 pra cfsi htc lml-20 lmr-20 hdib hfl-s" title="&iexcl;S&iacute;guenos en Instagram!">
+            <i class='bx bxl-instagram' ></i>
+        </a>
+        <a href="https://twitter.com/CambridgeWords" target="_blank" rel="noopener noreferrer external" class="pr00 hdb hao b-st pa p0 pra cfsi htc lml-20 lmr-20 hdib hfl-s" title="&iexcl;S&iacute;guenos!">
+            <i class='bx bxl-twitter' ></i>
+        </a>
+    </div>
+    
+    <div class="hcb htc hfr-s hcl-s fs12 lpb-20 lpt-20 lp-xs_t-10 lp-s_t-15">
+        <a class="hdib s s-logo-footer" href="http://www.cambridge.org/" title="Cambridge University Press &amp; Assessment" rel="external"></a>
+        <p>© Diccionary international yk</p>
+    </div>        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

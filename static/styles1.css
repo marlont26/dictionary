@@ -1,0 +1,188 @@
+body {
+    background-color: #0f0f0f; /* Fondo negro para resaltar los colores neón */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Fondo de la barra de navegación */
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    height: 50px; /* Ajusta el tamaño del logo */
+    margin-right: auto; /* Empuja el logo hacia la izquierda */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    border: none;
+    border-radius: 15px;
+    padding: 5px 5px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #39ff14; 
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transiciones suaves */
+}
+
+nav ul li a:hover {
+    color: #000; /* Texto negro al pasar el mouse */
+    background-color: #37ff14ab; /* Fondo verde neón al pasar el mouse */
+    border-radius: 15px;
+    padding: 8px auto;
+    
+}
+
+nav ul li a:active {
+    color: #fff;
+    background-color: #ff00ff; /* Fondo rosa neón al hacer clic */
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+nav ul i {
+    color: #39ff14; /* Verde neón para los iconos */
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Transiciones suaves */
+}
+
+nav ul i:hover {
+    color: #ff00ff; /* Rosa neón al pasar el mouse */
+}
+
+/* Estilos para el contenido principal */
+.pr1, .pr {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(205, 210, 211, 0.204);
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.pr1 {
+    margin-top: 90px;
+}
+
+.pr {
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: rgb(98, 212, 83);
+}
+
+span {
+    color: #dae8d8;
+}
+
+p {
+    color: #cdddca;
+}
+
+.bw1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hul1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hul1 li {
+    margin: 10px;
+}
+
+.hul1 li a {
+    text-decoration: none;
+    color: #39ff14; /* Verde neón */
+    transition: color 0.3s ease; /* Transiciones suaves */
+}
+
+.hul1 li a:hover {
+    color: #ff00ff; /* Rosa neón al pasar el mouse */
+}
+
+.oculto {
+    display: none;
+}
+
+button {
+    background-color: #39ff14; /* Verde neón */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transiciones suaves */
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff00ff; /* Rosa neón */
+}
+
+button:active {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333; /* Fondo del pie de página */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+footer a {
+    color: #39ff14; /* Verde neón */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Transiciones suaves */
+}
+
+footer a:hover {
+    color: #ff00ff; /* Rosa neón al pasar el mouse */
+}
+
+footer .hcb p {
+    margin: 10px 0 0 0;
+}
+
+footer i {
+    color: #39ff14; /* Verde neón para los iconos */
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Transiciones suaves */
+}
+
+footer i:hover {
+    color: #ff00ff; /* Rosa neón al pasar el mouse */
+}
