@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Relacionar Palabras e Imágenes</title>
+    <link rel="stylesheet" href="static/stylesjuego.css">
+</head>
+<body>
+    <h1>Juego de Relacionar Palabras e Imágenes</h1>
+    <div class="container">
+        <div class="column_words">
+            <h2>Lenguajes</h2>
+            <ul id="words-list">
+                <li data-match="run"><button>Run</button></li>
+                <li data-match="call"><button>Call</button></li>
+                <li data-match="talk"><button>Talk</button></li>
+            </ul>
+        </div>
+        <div class="column_images">
+            <h2>Imágenes</h2>
+            <ul id="images-list">
+                <li data-match="run"><img src="media/run.jpg" alt="run"></li>
+                <li data-match="call"><img src="media/call.jpg" alt="call"></li>
+                <li data-match="talk"><img src="media/talk.jpg" alt="talk"></li>
+            </ul>
+        </div>
+    </div>
+    <p id="message"></p>
+
+    <script src="scriptjuego.js"></script>
+</body>
+</html>
