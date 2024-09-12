@@ -7,22 +7,45 @@
     <link rel="stylesheet" href="static/stylesjuego.css">
 </head>
 <body>
+    <header> 
+        <nav>
+            <ul> 
+                <li><a href="index.html"><span class="ceroo"><i class="verb00"></i></span>Diccionary</a></li>
+                <li><a href="irregulares1.html"><span class="cero"><i class="verb1"></i></span>Irregular</a></li>
+                <li><a href="regular.html"><span class="uno"><i class="verb0"></i></span>regular</a></li>
+                <li><a href="gramatica.html"><span class="dos"><i class="verb0"></i></span>Gramatical</a></li>
+                <li><a href="juego_carta.html">Juego dinamico</a></li>
+
+                <img src="media/logo.png" alt="logo dictionary" class="logo" >
+            </ul>
+            <ul>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-facebook'></i>
+            </ul>
+        </nav>
+    </header>
+    
     <h1>Juego de Relacionar Palabras e Imágenes</h1>
     <div class="container">
         <div class="column_words">
             <h2>Lenguajes</h2>
             <ul id="words-list">
-                <li data-match="run"><button>Run</button></li>
-                <li data-match="call"><button>Call</button></li>
-                <li data-match="talk"><button>Talk</button></li>
+                <li data-match="talk">Talk</li>
+                <li data-match="run">Run</li>             
+                <li data-match="drink">Drink</li>                
+                <li data-match="dance">Dance</li>           
+                <li data-match="eat">Eat</li>           
+
             </ul>
         </div>
         <div class="column_images">
             <h2>Imágenes</h2>
             <ul id="images-list">
+                <li data-match="dance"><img src="media/dance.jpg" alt="dance"></li>
                 <li data-match="run"><img src="media/run.jpg" alt="run"></li>
-                <li data-match="call"><img src="media/call.jpg" alt="call"></li>
                 <li data-match="talk"><img src="media/talk.jpg" alt="talk"></li>
+                <li data-match="eat"><img src="media/eat.jpg" alt="eat"></li>
+                <li data-match="drink"><img src="media/drink.jpg" alt="drink"></li>
             </ul>
         </div>
     </div>

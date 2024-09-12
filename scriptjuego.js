@@ -44,7 +44,7 @@ function checkMatch() {
             selectedWord.style.pointerEvents = 'none';
             selectedImage.style.pointerEvents = 'none';
         } else {
-            messageElement.textContent = 'Intenta de nuevo.';
+            messageElement.textContent = 'Incorrecto, Intenta de nuevo.';
         }
 
         selectedWord.classList.remove('selected');

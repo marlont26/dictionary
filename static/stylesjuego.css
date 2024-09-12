@@ -1,9 +1,72 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
+    background-color: #0f0f0f; /* Fondo negro para resaltar los colores neón */
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Fondo de la barra de navegación */
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    height: 50px; /* Ajusta el tamaño del logo */
+    margin-right: auto; /* Empuja el logo hacia la izquierda */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    border: none;
+    border-radius: 15px;
+    padding: 5px 5px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #39ff14; 
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transiciones suaves */
+}
+
+nav ul li a:hover {
+    color: #000; /* Texto negro al pasar el mouse */
+    background-color: #37ff14ab; /* Fondo verde neón al pasar el mouse */
+    border-radius: 15px;
+    padding: 8px auto;
+    
+}
+
+nav ul li a:active {
+    color: #fff;
+    background-color: #ff00ff; /* Fondo rosa neón al hacer clic */
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+nav ul i {
+    color: #39ff14; /* Verde neón para los iconos */
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Transiciones suaves */
+}
+
+nav ul i:hover {
+    color: #ff00ff; /* Rosa neón al pasar el mouse */
 }
 
 h1 {
@@ -52,6 +115,7 @@ ul {
 li {
     cursor: pointer;
     padding: 15px;
+    height: 40px;
     margin: 10px 0;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -72,6 +136,10 @@ img {
     height: 80px;
     object-fit: contain; 
 }
+.images-list{
+    width: 60px;
+    height: 60px;
+}
 
 .matched {
     background-color: #d4edda;
@@ -86,6 +154,6 @@ img {
 #message {
     margin-top: 30px;
     font-size: 18px;
-    color: #28a745;
+    color: #19722d;
     font-weight: bold;
 }
