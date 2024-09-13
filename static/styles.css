@@ -37,14 +37,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #39ff14; 
+    color: #000000; 
     text-decoration: none;
     font-weight: 400;
     transition: color 0.3s ease, background-color 0.3s ease; /* Transiciones suaves */
 }
 
 nav ul li a:hover {
-    color: #000; /* Texto negro al pasar el mouse */
+    color: #00000081; /* Texto negro al pasar el mouse */
     background-color: #37ff14ab; /* Fondo verde neón al pasar el mouse */
     border-radius: 15px;
     padding: 8px auto;
@@ -53,20 +53,20 @@ nav ul li a:hover {
 
 nav ul li a:active {
     color: #fff;
-    background-color: #ff00ff; /* Fondo rosa neón al hacer clic */
+    background-color: #8a888a; /* Fondo rosa neón al hacer clic */
     border-radius: 5px;
     padding: 5px 10px;
 }
 
 nav ul i {
-    color: #39ff14; /* Verde neón para los iconos */
+    color: #37ff1462; /* Verde neón para los iconos */
     font-size: 24px;
     margin: 0 10px;
     transition: color 0.3s ease; /* Transiciones suaves */
 }
 
 nav ul i:hover {
-    color: #ff00ff; /* Rosa neón al pasar el mouse */
+    color: #848084; /* Rosa neón al pasar el mouse */
 }
 
 /* Estilos para el contenido principal */
@@ -88,7 +88,7 @@ nav ul i:hover {
 }
 
 h1, h2 {
-    color: rgb(98, 212, 83);
+    color: rgba(98, 212, 83, 0.816);
 }
 
 span {
@@ -125,7 +125,7 @@ p {
 }
 
 .hul1 li a:hover {
-    color: #ff00ff; /* Rosa neón al pasar el mouse */
+    color: #948b94; /* Rosa neón al pasar el mouse */
 }
 
 .oculto {
@@ -144,7 +144,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff00ff; /* Rosa neón */
+    background-color: #7e787e; /* Rosa neón */
 }
 
 button:active {
@@ -169,7 +169,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #ff00ff; /* Rosa neón al pasar el mouse */
+    color: #aca7ac; /* Rosa neón al pasar el mouse */
 }
 
 footer .hcb p {
@@ -184,5 +184,5 @@ footer i {
 }
 
 footer i:hover {
-    color: #ff00ff; /* Rosa neón al pasar el mouse */
+    color: #9d919d; /* Rosa neón al pasar el mouse */
 }

@@ -164,3 +164,70 @@ img {
     text-align: center;
 }
 
+/* stylesjuego.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #bbc2c9;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column_words, .column_images {
+    width: 45%;
+}
+
+.column_words ul, .column_images ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column_words li, .column_images li {
+    margin-bottom: 10px;
+}
+
+.column_images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(204, 197, 197, 0.2);
+}
+
+/* Asegurarse de que los elementos de la lista estén bien espaciados y alineados */
+.column_words li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+.column_words li:hover {
+    background-color: #f0f0f0;
+}

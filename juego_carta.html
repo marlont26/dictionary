@@ -4,26 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego de Relacionar Palabras e Imágenes</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="static/stylesjuego.css">
-</head>
-<body>
-    <header> 
-        <nav>
-            <ul> 
-                <li><a href="index.html"><span class="icon-dictionary"><i class="bx bxs-book"></i></span>Dictionary</a></li>
-                <li><a href="irregulares1.html"><span class="icon-irregular"><i class="bx bx-list-ul"></i></span>Irregular Verbs</a></li>
-                <li><a href="regular.html"><span class="icon-regular"><i class="bx bx-list-check"></i></span>Regular Verbs</a></li>
-                <li><a href="gramatica.html"><span class="icon-grammar"><i class="bx bx-book-alt"></i></span>Grammar</a></li>
-                <li><a href="juego_carta.html"><span class="icon-game"><i class="bx bx-game"></i></span>Dynamic Game</a></li>
-                <li><a href="juego_memoria.html"><span class="icon-game"><i class="bx bx-game"></i></span>Memory Game</a></li>
-                <img src="media/logo.png" alt="Dictionary Logo" class="logo">
-            </ul>
-            <ul class="social-icons">
-                <li><a href="https://www.instagram.com/marlontorres.z/"><i class='bx bxl-instagram'></i></a></li>
-                <li><a href="https://www.facebook.com/CUPCambridgeDictionary/"><i class='bx bxl-facebook'></i></a></li>
-            </ul>
-        </nav>
-    </header>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="static/styles2.css">
+        <title>Verb Dictionary</title>
+        <style>
+            /* Estilo personalizado para el navbar */
+            .navbar-custom {
+                background-color: #1f1e1e; /* Color de fondo del navbar */
+            }
+            .navbar-custom .navbar-brand {
+                color: #d6d9dc; /* Color del texto del brand */
+            }
+            .navbar-custom .navbar-nav .nav-link {
+                color: #c1c4c7; /* Color del texto de los enlaces */
+            }
+            .navbar-custom .navbar-nav .nav-link:hover {
+                color: #babdc1; /* Color del texto de los enlaces al pasar el ratón */
+            }
+            .navbar-custom .navbar-toggler {
+                border-color: #d6d9dc; /* Color del borde del botón toggler */
+            }
+            .navbar-custom .navbar-toggler-icon {
+                background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath stroke="%23d6d9dc" stroke-width="2" d="M5 7h20M5 15h20M5 23h20" /%3E%3C/svg%3E'); /* Color del ícono del botón toggler */
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="media/logo.png" alt="Dictionary Logo" class="logo" style="height: 40px;"> Verb Dictionary
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"><i class="bx bxs-book"></i> Dictionary</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="irregulares1.html"><i class="bx bx-list-ul"></i> Irregular Verbs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="regular.html"><i class="bx bx-list-check"></i> Regular Verbs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gramatica.html"><i class="bx bx-book-alt"></i> Grammar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="juego_carta.html"><i class="bx bx-game"></i> Dynamic Game</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="juego_memoria.html"><i class="bx bx-game"></i> Memory Game</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
     
     <h1>Relate the Columns with verbs and images</h1>
     <div class="container">
@@ -35,7 +84,6 @@
                 <li data-match="drink">Drink</li>                
                 <li data-match="dance">Dance</li>           
                 <li data-match="eat">Eat</li>           
-
             </ul>
         </div>
         <div class="column_images">
@@ -52,5 +100,8 @@
     <p id="message"></p>
 
     <script src="scriptjuego.js"></script>
+    
 </body>
+
 </html>
+    
