@@ -32,14 +32,14 @@ nav ul {
 nav ul li {
   border: none;
   border-radius: 15px;
-  padding: 5px 5px;
+  padding: 3px 3px;
   margin: 0 15px;
 }
 
 nav ul li a {
   color: #39ff14;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 300;
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
@@ -109,4 +109,40 @@ h1 {
 
 .verb audio {
   width: 100%;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333; /* Fondo del pie de página */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+footer a {
+  color: #39ff14; /* Verde neón */
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease; /* Transiciones suaves */
+}
+
+footer a:hover {
+  color: #ff00ff; /* Rosa neón al pasar el mouse */
+}
+
+footer .hcb p {
+  margin: 10px 0 0 0;
+}
+
+footer i {
+  color: #39ff14; /* Verde neón para los iconos */
+  font-size: 24px;
+  margin: 0 10px;
+  display: flex;
+  transition: color 0.3s ease; /* Transiciones suaves */
+}
+
+footer i:hover {
+  color: #ff00ff; /* Rosa neón al pasar el mouse */
 }

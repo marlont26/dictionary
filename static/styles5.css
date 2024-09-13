@@ -32,14 +32,14 @@ body {
   nav ul li {
     border: none;
     border-radius: 15px;
-    padding: 5px 5px;
+    padding: 3px 3px;
     margin: 0 15px;
   }
   
   nav ul li a {
     color: #39ff14;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
     transition: color 0.3s ease, background-color 0.3s ease;
   }
   
