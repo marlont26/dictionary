@@ -110,6 +110,7 @@ h1 {
 .verb audio {
   width: 100%;
 }
+<<<<<<< HEAD
 
 /* Estilos para el pie de página */
 footer {
@@ -146,3 +147,126 @@ footer i {
 footer i:hover {
   color: #ff00ff; /* Rosa neón al pasar el mouse */
 }
+=======
+/* General */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo img {
+  width: 150px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-menu .nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-menu .nav-link:hover {
+  color: #ff6347;
+}
+
+.navbar-social {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link i {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.social-link i:hover {
+  color: #ff6347;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.footer-section h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-section p, .footer-section ul {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons .social-icon i {
+  font-size: 1.8rem;
+  transition: color 0.3s;
+}
+
+.social-icons .social-icon i:hover {
+  color: #ff6347;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+  font-size: 0.85rem;
+  color: #888;
+}
+>>>>>>> 528ef13779428cc151bfbb75c7c69b36ea1e6fe7
